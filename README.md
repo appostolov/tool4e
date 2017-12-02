@@ -33,3 +33,9 @@ description:
     Thank you for your time!
 
     Petar Apostolov
+
+External(MIT):
+ * jQuery JavaScript Library v3.1.1
+ * Underscore.js 1.8.3
+ * RequireJS 2.3.2
+ * AngularJS v1.6.4
