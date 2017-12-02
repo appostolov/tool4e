@@ -1,11 +1,35 @@
-# tool4e
-tool4e is idea to represent the web in 3D space.
-Here you can find the UI for tool4e, extract raw from the production.
+title: tool4e
+author: Petar Apostolov
+organization: appostolov
+email: appostolov@gmail.com
+description:
 
-Authors
+    Hello! My name is Petar Apostolov, and I'm the creator of tool4e idea.
 
-Petar Apostolov - appostolov@gmail.com
+    The idea is to split web content( objects ) in to 3D view.
+    User can fly around and look around, searching or not a anything.
 
-License
+    The objects in this space react when the user is  close enough.
+    User can interact with them via all possible UI available over the web.
+    Every object is smart UI element, who can communicate with the user for ever,
+    since it has resources to continue. Yes resources. The object can call resources,
+    and apply presence. Lets say, that the brain of the object is chunk of javascript.
+    This javascript can think, and if it want or user ask, it can call an other presence
+    and separate or update it self.
 
-This project is licensed under the AGPL-3.0 License - see the LICENSE.md file for details
+    tool4e is splitter!
+
+    It is abstract domain host and web content 3D splitter.
+    tool4e handles users, spaces, objects, presences, locations management and lot more...
+    Those who own specific domain hosted by tool4e, can organyze clouds of smart objects into
+    colorful spaces, and to pick up special locations for its visitors.
+    Also tool4e provide privacy of the spaces, by powering the users with different permissions.
+
+    This platform is specified for software developers.
+    If you want to create your own spaces in your web platform,
+    you will have to consult with specialists.
+    Good start is to contact me on appostolov@gmail.com
+
+    Thank you for your time!
+
+    Petar Apostolov
