@@ -8,7 +8,7 @@ description:
     Hello! My name is Petar Apostolov, and I'm the creator of tool4e idea.
 
     The idea is to split web content( objects ) in to 3D view.
-    User can fly around and look around, searching or not a anything.
+    User can fly around and look around, searching or not anything.
 
     The objects in this space react when the user is  close enough.
     User can interact with them via all possible UI available over the web.
