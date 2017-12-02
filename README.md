@@ -2,6 +2,7 @@ title: tool4e
 author: Petar Apostolov
 organization: appostolov
 email: appostolov@gmail.com
+license: GNU AFFERO GENERAL PUBLIC LICENSE - Version 3, 19 November 2007 -> see LICENSE.md
 description:
 
     Hello! My name is Petar Apostolov, and I'm the creator of tool4e idea.
