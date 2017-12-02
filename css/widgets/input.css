@@ -1,0 +1,21 @@
+.widgetInput{
+  height: 100%;
+}
+
+.widgetInput input{
+  height: 100%;
+  padding: 10px;
+}
+
+.widgetInput.disabled{
+  cursor: default;
+}
+
+.widgetInput.disabled label{
+  cursor: default;
+}
+
+.widgetInput.disabled input{
+  height: 100%;
+  cursor: default;
+}

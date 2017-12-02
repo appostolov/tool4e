@@ -1,0 +1,8 @@
+.widgetButton{
+  padding: 10px;
+  cursor: pointer;
+}
+
+.widgetButton.disabled{
+  cursor: default;
+}

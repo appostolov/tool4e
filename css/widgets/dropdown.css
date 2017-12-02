@@ -1,0 +1,23 @@
+.widgetDropdown{
+  cursor: pointer;
+}
+
+.widgetDropdown label{
+  cursor: pointer;
+}
+
+.widgetDropdown select{
+  cursor: pointer;
+}
+
+.widgetDropdown.disabled{
+  cursor: default;
+}
+
+.widgetDropdown.disabled label{
+  cursor: default;
+}
+
+.widgetDropdown.disabled select{
+  cursor: default;
+}

@@ -1,0 +1,144 @@
+.widgetPopover{
+	
+	position: absolute;
+	z-index: 999;
+	
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 4px;
+}
+
+.widgetPopover .arrow{
+	
+	position: absolute;
+	top: -6px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.widgetPopover .content{
+	
+	padding: 10px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+.widgetPopover.top-center .arrow{
+	
+	left: 50%;
+}
+
+.widgetPopover.top-right .arrow{
+	
+	left: auto;
+	right: 10px;
+}
+
+.widgetPopover.bottom-left .arrow{
+	
+	top: auto;
+	bottom: -6px;
+	
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.widgetPopover.bottom-center .arrow{
+	
+	top: auto;
+	bottom: -6px;
+	left: 50%;
+	
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.widgetPopover.bottom-right .arrow{
+	
+	top: auto;
+	bottom: -6px;
+	
+	left: auto;
+	right: 10px;
+
+	border-top: none;
+	border-left: none;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.widgetPopover.left-top .arrow{
+	
+	top: 10px;
+	left: -6px;
+
+	border-top: none;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+.widgetPopover.left-center .arrow{
+	
+	top: 50%;
+	left: -6px;
+
+	border-top: none;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+.widgetPopover.left-bottom .arrow{
+	
+	top: auto;
+	left: -6px;
+	bottom: 10px;
+
+	border-top: none;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+}
+
+.widgetPopover.right-top .arrow{
+	
+	top: 10px;
+	left: auto;
+	right: -6px;
+
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-left: none;
+}
+
+.widgetPopover.right-center .arrow{
+	
+	top: 50%;
+	left: auto;
+	right: -6px;
+
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-left: none;
+}
+
+.widgetPopover.right-bottom .arrow{
+	
+	top: auto;
+	left: auto;
+	right: -6px;
+
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-left: none;
+}

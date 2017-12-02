@@ -1,0 +1,26 @@
+.widgetCheckbox{
+  cursor: pointer;
+  min-height: 39px;
+}
+
+.widgetCheckbox label{
+  justify-content: initial;
+  cursor: pointer;
+}
+
+.widgetCheckbox input{
+    max-width: 39px;
+  cursor: pointer;
+}
+
+.widgetCheckbox.disabled{
+  cursor: default;
+}
+
+.widgetCheckbox.disabled label{
+  cursor: default;
+}
+
+.widgetCheckbox.disabled input{
+  cursor: default;
+}

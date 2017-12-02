@@ -1,0 +1,45 @@
+.databaseTable{
+    height: 100%;
+}
+
+.databaseTable .searchHold{
+    max-height: 39px;
+}
+
+.databaseTable .searchHold .widgetButton{
+    max-width: 39px;
+}
+
+.manageMenu{
+    height: 100%;
+    padding: 20px;
+}
+
+.manageMenu .widgetButton{
+    max-height: 39px;
+}
+
+.menuDatabaseListEntry img{
+    max-width: 78px;
+}
+
+.menuDatabaseListEntry.noImg img{
+    display: none;
+}
+
+.menuDatabaseListEntry .entryRight{
+    overflow: hidden;
+    margin-left: 20px;
+}
+.menuDatabaseListEntry.noImg .entryRight{
+    margin-left: 0;
+}
+
+.menuDatabaseListEntry .info{
+    display: inline-block;
+    line-height: 39px;
+    justify-content: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

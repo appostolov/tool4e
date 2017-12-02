@@ -1,0 +1,10 @@
+.widgetArticle p{
+	position: relative;
+	overflow: auto;
+}
+
+.widgetArticle p img{
+	display: block;
+	position: relative;
+	float: left;
+}

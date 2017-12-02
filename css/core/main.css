@@ -1,0 +1,69 @@
+*{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+title{
+    display: none;
+}
+
+style{
+    display: none;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.columnReverse{
+   flex-direction: column-reverse;
+}
+
+.rowReverse{
+   flex-direction: row-reverse;
+}
+
+.absoluteFull{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.absoluteTopLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.absoluteTopRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.absoluteBottomLeft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.absoluteBottomRight{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.widthAuto{
+    width: auto;
+}

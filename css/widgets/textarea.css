@@ -1,0 +1,20 @@
+.widgetTextarea{
+  height: 100%;
+}
+
+.widgetTextarea textarea{
+  height: 100%;
+  padding: 10px;
+}
+
+.widgetTextarea.disabled{
+  cursor: default;
+}
+
+.widgetTextarea.disabled label{
+  cursor: default;
+}
+
+.widgetTextarea.disabled textarea{
+  cursor: default;
+}

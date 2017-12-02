@@ -1,0 +1,74 @@
+.mainMenu{
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+}
+.mainMenu .topLine .logo{
+    display: none;
+}
+.mainMenu .menuNav{
+    display: none;
+}
+.mainMenu menu{
+    display: none;
+    padding: 30px;
+    overflow: hidden;
+}
+.mainMenu .footer{
+    display: none;
+}
+.mainMenu.active .topLine .logo{
+    display: inherit;
+}
+.mainMenu.active .menuNav{
+    display: inherit;
+}
+.mainMenu.active menu{
+    display: inherit;
+}
+.mainMenu.active .footer{
+    display: inherit;
+}
+.mainMenu.active{
+    max-width: 100%;
+    width: 600px;
+    height: 100%;
+}
+.mainMenu .topLine{
+    width: 100%;
+    max-height: 35px;
+    height: 35px;
+}
+
+.mainMenu .topLine button{
+    background-color: transparent;
+    border: none;
+}
+
+.mainMenu .topLine .menu{
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.mainMenu .topLine .logo{
+    max-width: 110px;
+    max-height: 25px;
+    height: 25px;
+}
+
+.mainMenu .menuNav{
+    width: 100%;
+    max-height: 35px;
+}
+
+.mainMenu .menuNav button{
+    border: none;
+    width: 35px;
+    max-width: 35px;
+}
+
+.mainMenu .footer{
+    max-height: 39px;
+}
